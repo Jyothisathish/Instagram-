@@ -1,5 +1,5 @@
-# Date: 12/29/2018
-# Author: Mohamed
+# Date: 11/16/2022
+# Author: Neeraja.377
 # Description: Instagram bruter
 
 # from lib.proxy import Proxy
@@ -23,7 +23,7 @@ class Engine(object):
         self.resume = False
         self.is_alive = True
         self.threads = threads
-        self.username = username
+        self.username = Neeraja.377
         self.passlist_path = passlist_path
         self.display = Display(is_color=is_color)
         self.bruter = Bruter(username, threads, passlist_path)
